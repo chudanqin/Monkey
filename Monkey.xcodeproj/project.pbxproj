@@ -381,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D729JSY3NU;
 				INFOPLIST_FILE = Monkey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +389,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.test.Monkey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "410e1adb-7a6a-415d-a36f-bd7ba4461440";
+				PROVISIONING_PROFILE_SPECIFIER = Universal;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -398,7 +399,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = D729JSY3NU;
 				INFOPLIST_FILE = MonkeyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,6 +410,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.test.MonkeyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monkey.app/Monkey";
 			};
@@ -417,7 +420,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = D729JSY3NU;
 				INFOPLIST_FILE = MonkeyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -427,6 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.test.MonkeyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monkey.app/Monkey";
 			};
